@@ -1,9 +1,8 @@
 module.exports = {
-    siteMetadata: {
-      title: `talks`,
-        siteUrl: `https://www.yourdomain.tld`,
-    },
-    plugins: [
+  siteMetadata: {
+    title: `Talks by Moacir P. de Sá Pereira`,
+    siteUrl: `https://talks.moacir.com`,
+  },
+  plugins: [],
+};
 
-    ]
-}
