@@ -1,7 +1,7 @@
 import Application from '@ember/application';
 import Resolver from 'ember-resolver';
 import loadInitializers from 'ember-load-initializers';
-import config from 'talks.moacir.moacir/config/environment';
+import config from 'talks.moacir.com/config/environment';
 
 export default class App extends Application {
   modulePrefix = config.modulePrefix;

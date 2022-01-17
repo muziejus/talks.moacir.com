@@ -1,3 +1,13 @@
 import Route from '@ember/routing/route';
 
-export default class IndexRoute extends Route {}
+export default class IndexRoute extends Route {
+  model() {
+    return [
+      {
+        id: 'gitsertation-2022',
+        title:
+          '“Gitsertation”: Scholarly Project Workflows with Git, Zotero, and Pandoc',
+      },
+    ];
+  }
+}

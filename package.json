@@ -1,8 +1,8 @@
 {
-  "name": "talks.moacir.moacir",
+  "name": "talks.moacir.com",
   "version": "0.0.0",
   "private": true,
-  "description": "Small description for talks.moacir.moacir goes here",
+  "description": "Small description for talks.moacir.com goes here",
   "repository": "",
   "license": "MIT",
   "author": "",
@@ -43,6 +43,7 @@
     "ember-export-application-global": "^2.0.1",
     "ember-fetch": "^8.1.1",
     "ember-load-initializers": "^2.1.2",
+    "ember-modifier": "^3.0.0",
     "ember-page-title": "^7.0.0",
     "ember-qunit": "^5.1.5",
     "ember-resolver": "^8.0.3",
@@ -69,6 +70,7 @@
     "edition": "octane"
   },
   "dependencies": {
+    "marked": "^4.0.10",
     "reveal.js": "^4.2.1"
   }
 }

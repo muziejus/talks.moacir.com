@@ -1,5 +1,5 @@
-import Application from 'talks.moacir.moacir/app';
-import config from 'talks.moacir.moacir/config/environment';
+import Application from 'talks.moacir.com/app';
+import config from 'talks.moacir.com/config/environment';
 import * as QUnit from 'qunit';
 import { setApplication } from '@ember/test-helpers';
 import { setup } from 'qunit-dom';

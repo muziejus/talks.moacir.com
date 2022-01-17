@@ -9,6 +9,8 @@
 <h2>Talks on this site:</h2>
 
 <ul>
-<li>Gitsertation 2022</li>
+{{#each @model as |talk|}}
+  <li><LinkTo @route="talk" @model={{talk.id}}>{{talk.title}}</LinkTo></li>
+{{/each}}
 </ul>
 

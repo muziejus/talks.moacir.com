@@ -2,10 +2,10 @@
 
 module.exports = function (environment) {
   let ENV = {
-    modulePrefix: 'talks.moacir.moacir',
+    modulePrefix: 'talks.moacir.com',
     environment,
     rootURL: '/',
-    locationType: 'auto',
+    locationType: 'history',
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
