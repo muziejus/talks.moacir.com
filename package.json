@@ -24,6 +24,7 @@
   },
   "devDependencies": {
     "@ember/optional-features": "^2.0.0",
+    "@ember/render-modifiers": "^2.0.3",
     "@ember/test-helpers": "^2.6.0",
     "@glimmer/component": "^1.0.4",
     "@glimmer/tracking": "^1.0.4",
@@ -66,5 +67,8 @@
   },
   "ember": {
     "edition": "octane"
+  },
+  "dependencies": {
+    "reveal.js": "^4.2.1"
   }
 }

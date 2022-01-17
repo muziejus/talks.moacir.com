@@ -1138,6 +1138,15 @@
     mkdirp "^1.0.4"
     silent-error "^1.1.1"
 
+"@ember/render-modifiers@^2.0.3":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@ember/render-modifiers/-/render-modifiers-2.0.3.tgz#bdbc93c02f854e86902fa9a5aca538356d151d1f"
+  integrity sha512-E5R3RN6XapSQid93UNKLj774Xg6e2tpdJAz1T1NWLIWajEpWR/hVPBd6c8eRAUBnTliEewc4L3pq7mwUUdsWHA==
+  dependencies:
+    "@embroider/macros" ">= 0.48.1 < 2.0.0-alpha.1"
+    ember-cli-babel "^7.26.6"
+    ember-modifier-manager-polyfill "^1.2.0"
+
 "@ember/string@^3.0.0":
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/@ember/string/-/string-3.0.0.tgz#e3a3cc7874c9f64eadfdac644d8b1238721ce289"
@@ -1229,7 +1238,7 @@
     resolve "^1.8.1"
     semver "^7.3.2"
 
-"@embroider/macros@^0.50.0":
+"@embroider/macros@>= 0.48.1 < 2.0.0-alpha.1", "@embroider/macros@^0.50.0":
   version "0.50.2"
   resolved "https://registry.yarnpkg.com/@embroider/macros/-/macros-0.50.2.tgz#9ec7d0bb1fa846410fc6c209a69b782640942b11"
   integrity sha512-nPRE8fanqbIik4+WBm/roW3sxNkMp6WnuZT/IM8wdmgkYU55uH+eyJXT7XW0UGy9IQv6YJ2QTRz46cq9N0/4qg==
@@ -4497,7 +4506,7 @@ ember-cli-babel-plugin-helpers@^1.0.0, ember-cli-babel-plugin-helpers@^1.1.1:
   resolved "https://registry.yarnpkg.com/ember-cli-babel-plugin-helpers/-/ember-cli-babel-plugin-helpers-1.1.1.tgz#5016b80cdef37036c4282eef2d863e1d73576879"
   integrity sha512-sKvOiPNHr5F/60NLd7SFzMpYPte/nnGkq/tMIfXejfKHIhaiIkYFqX8Z9UFTKWLLn+V7NOaby6niNPZUdvKCRw==
 
-ember-cli-babel@^7.0.0, ember-cli-babel@^7.13.0, ember-cli-babel@^7.13.2, ember-cli-babel@^7.21.0, ember-cli-babel@^7.22.1, ember-cli-babel@^7.23.0, ember-cli-babel@^7.23.1, ember-cli-babel@^7.26.11, ember-cli-babel@^7.26.5, ember-cli-babel@^7.26.6, ember-cli-babel@^7.7.3:
+ember-cli-babel@^7.0.0, ember-cli-babel@^7.10.0, ember-cli-babel@^7.13.0, ember-cli-babel@^7.13.2, ember-cli-babel@^7.21.0, ember-cli-babel@^7.22.1, ember-cli-babel@^7.23.0, ember-cli-babel@^7.23.1, ember-cli-babel@^7.26.11, ember-cli-babel@^7.26.5, ember-cli-babel@^7.26.6, ember-cli-babel@^7.7.3:
   version "7.26.11"
   resolved "https://registry.yarnpkg.com/ember-cli-babel/-/ember-cli-babel-7.26.11.tgz#50da0fe4dcd99aada499843940fec75076249a9f"
   integrity sha512-JJYeYjiz/JTn34q7F5DSOjkkZqy8qwFOOxXfE6pe9yEJqWGu4qErKxlz8I22JoVEQ/aBUO+OcKTpmctvykM9YA==
@@ -4716,6 +4725,14 @@ ember-cli-typescript@^4.1.0:
     stagehand "^1.0.0"
     walk-sync "^2.2.0"
 
+ember-cli-version-checker@^2.1.2:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/ember-cli-version-checker/-/ember-cli-version-checker-2.2.0.tgz#47771b731fe0962705e27c8199a9e3825709f3b3"
+  integrity sha512-G+KtYIVlSOWGcNaTFHk76xR4GdzDLzAS4uxZUKdASuFX0KJE43C6DaqL+y3VTpUFLI2FIkAS6HZ4I1YBi+S3hg==
+  dependencies:
+    resolve "^1.3.3"
+    semver "^5.3.0"
+
 ember-cli-version-checker@^3.1.3:
   version "3.1.3"
   resolved "https://registry.yarnpkg.com/ember-cli-version-checker/-/ember-cli-version-checker-3.1.3.tgz#7c9b4f5ff30fdebcd480b1c06c4de43bb51c522c"
@@ -4918,6 +4935,15 @@ ember-load-initializers@^2.1.2:
   dependencies:
     ember-cli-babel "^7.13.0"
     ember-cli-typescript "^2.0.2"
+
+ember-modifier-manager-polyfill@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/ember-modifier-manager-polyfill/-/ember-modifier-manager-polyfill-1.2.0.tgz#cf4444e11a42ac84f5c8badd85e635df57565dda"
+  integrity sha512-bnaKF1LLKMkBNeDoetvIJ4vhwRPKIIumWr6dbVuW6W6p4QV8ZiO+GdF8J7mxDNlog9CeL9Z/7wam4YS86G8BYA==
+  dependencies:
+    ember-cli-babel "^7.10.0"
+    ember-cli-version-checker "^2.1.2"
+    ember-compatibility-helpers "^1.2.0"
 
 ember-page-title@^7.0.0:
   version "7.0.0"
@@ -9305,7 +9331,7 @@ resolve-url@^0.2.1:
   resolved "https://registry.yarnpkg.com/resolve-url/-/resolve-url-0.2.1.tgz#2c637fe77c893afd2a663fe21aa9080068e2052a"
   integrity sha1-LGN/53yJOv0qZj/iGqkIAGjiBSo=
 
-resolve@^1.10.0, resolve@^1.10.1, resolve@^1.11.1, resolve@^1.12.0, resolve@^1.13.1, resolve@^1.14.2, resolve@^1.17.0, resolve@^1.20.0, resolve@^1.4.0, resolve@^1.5.0, resolve@^1.8.1:
+resolve@^1.10.0, resolve@^1.10.1, resolve@^1.11.1, resolve@^1.12.0, resolve@^1.13.1, resolve@^1.14.2, resolve@^1.17.0, resolve@^1.20.0, resolve@^1.3.3, resolve@^1.4.0, resolve@^1.5.0, resolve@^1.8.1:
   version "1.21.0"
   resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.21.0.tgz#b51adc97f3472e6a5cf4444d34bc9d6b9037591f"
   integrity sha512-3wCbTpk5WJlyE4mSOtDLhqQmGFi0/TD9VPwmiolnk8U0wRgMEktqCXd3vy5buTO3tljvalNvKrjHEfrd2WpEKA==
@@ -9339,6 +9365,11 @@ reusify@^1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/reusify/-/reusify-1.0.4.tgz#90da382b1e126efc02146e90845a88db12925d76"
   integrity sha512-U9nH88a3fc/ekCF1l0/UP1IosiuIjyTh7hBvXVMHYgVcfGvt897Xguj2UOLDeI5BG2m7/uwyaLVT6fbtCwTyzw==
+
+reveal.js@^4.2.1:
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/reveal.js/-/reveal.js-4.2.1.tgz#7dd56c930b826ef7065054c76106dce4d7be0056"
+  integrity sha512-OXH4qT5Gs9di6lZPDmRuanIvdiVzltCe8W9ELz6Q3EhoWS+RjRp5HBwFHr+k1fbbP82/Z83sQiK+/ZYFBwrrsQ==
 
 rimraf@^2.2.8, rimraf@^2.3.4, rimraf@^2.4.3, rimraf@^2.4.4, rimraf@^2.5.3, rimraf@^2.5.4, rimraf@^2.6.1, rimraf@^2.6.2, rimraf@^2.6.3:
   version "2.7.1"
