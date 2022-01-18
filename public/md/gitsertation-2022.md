@@ -24,11 +24,13 @@ at a later date.
 
 ## Opening Links:
 
-1. Download:
+* Download:
   * [Visual Studio Code](https://code.visualstudio.com/Download) 
   * [Pandoc](https://pandoc.org/installing.html)
   * [Zotero](https://zotero.org)
-2. Create an Account on:
+  * [Better BibTeX for Zotero](https://github.com/retorquere/zotero-better-bibtex/releases/download/v6.1.5/zotero-better-bibtex-6.1.5.xpi)
+
+* Create an Account on:
   * [GitHub](https://www.github.com)
 
 ---
@@ -67,19 +69,190 @@ And it’s a workable foundation.
 
 ---
 
+## Projects & Git.
+
+---
+
 ## Your Dissertation Is Not a _Document_.<br />It Is a _Project_.
 
 ![Gantt Chart](https://upload.wikimedia.org/wikipedia/commons/3/37/GANTT_Chart.JPG)
 
 ---
 
-## [“Project Management Simplified” Course](https://www.linkedin.com/learning/project-management-simplified-2019)
+## [“Project Management Simplified” LinkedIn Course](https://www.linkedin.com/learning/project-management-simplified-2019)
 
-* == Know your constraints
-* == Break your project apart
-* == Find your blockers
+* Know your constraints<!-- .element: class="fragment" -->
+* Break your project apart<!-- .element: class="fragment" -->
+* Find your blockers<!-- .element: class="fragment" -->
 
 ---
+
+## Git Is:
+
+* “Free and open source distributed version control system designed to handle
+everything from small to very large projects with speed and efficiency.”<!-- .element: class="fragment" -->
+* “Easy to learn.”<!-- .element: class="fragment" -->
+* A busybody keeping track of all the changes to all your files and never
+forgetting them.<!-- .element: class="fragment" -->
+
+
+Note: That part about â€œeasy to learnâ€ is probably not true. Git is insanely
+powerful, and even people who use it every day probably donâ€™t use more than a
+tiny chunk of it. And thatâ€™s because what IS easy is learning just enough Git
+to make it useful for you.
+
+---
+
+## Git Is:
+
+<ol>
+<li class="fragment">Part of a backup solution</li>
+<li class="fragment">An intention tracker/writing journal</li>
+<li class="fragment">A declutterer</li>
+<li class="fragment">A multi-verse generator</li>
+<li class="fragment">A collaboration engine</li>
+</ol>
+
+---
+
+## The Four Main Steps to Git
+
+1. <span class="fragment">Save - Not even part of Git. “Changes” in VSCode.</span>
+2. <span class="fragment">Stage - Also known as `git add`. </span>
+3. <span class="fragment">Commit - Show your _intention_. </span>
+4. <span class="fragment">Push - “Sync” in VSCode.</span>
+
+
+Note: Saving is what you already do. The files you work with have changes that
+get saved to the disk. Then, in staging a file, youâ€™re giving Git a heads up
+to keep track of the changes you have made. In committing, youâ€™re putting down
+a milestone for the changes the files have undergone. And in pushing, youâ€™re
+syncing your new changes with a server.
+
+---
+
+![The four steps to git](https://i.imgur.com/mNfax2z.png)
+
+<span class="credit">Icons by Font Awesome. [License](https://fontawesome.com/license).</span>
+
+Note: Hereâ€™s a slightly more visual way to think about this. But youâ€™ll notice
+here that Iâ€™m talking about â€œchanges,â€ not a â€œdocument.â€ This is a central
+conceit of Git.
+
+---
+
+## You’re not working on a _document_.<br />You’re working on a _project_.
+
+Note: For the rest of today, weâ€™ll be working on a project that is your CV.
+Itâ€™s not a single document. In fact, itâ€™s many--itâ€™s at least the html page
+that is your online CV and the pdf that is the print version. In a project,
+files come and go. They could be datasets, collections of text like chapters
+or sections of an article, or even, like in todayâ€™s workshop, the various
+parts of your CV.
+
+---
+
+## Working with Git via GitHub
+
+1. Create an account/login at [github.com](http://github.com)
+1. [Create a new repository](https://github.com/new) called `dissertation`
+    * Make it private
+    * Select “Add a README file”
+
+---
+
+## GitHub Visual Orientation
+
+
+
+---
+
+## Why VS Code?
+
+<ol>
+<li class="fragment">Free</li>
+<li class="fragment">Similar across platforms</li>
+<li class="fragment">One-stop shop with integrated shell</li>
+<li class="fragment">Excellent Git support built in</li>
+</ol>
+
+---
+
+## Isn’t Google Docs Free and Platform Agnostic?
+
+<ol>
+<li class="fragment">“Free”</li>
+<li class="fragment">Ethics, Availability, and Sustainability of Plain Text (see <a href="https://programminghistorian.org/en/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown">Tenen and Wythoff</a>)</li>
+</ol>
+
+---
+
+![Screenshot of VS Code](https://i.imgur.com/OloEamf.png)
+
+---
+
+## VSCode Initial Steps
+
+1. Learn/internalize the [Command Palette](https://code.visualstudio.com/docs/getstarted/userinterface#\_command-palette) (⇧⌘P / ⌃⇧P)
+1. Toggle autosave via Command Palette
+2. Notice that VSCode expects projects, not documents.
+
+Note: Atom is brought to us by the people at GitHub. It probably wonâ€™t win you
+any cool kid awards amongst your hacker nerd friends, but itâ€™s an easy editor
+to learn, I think, and its Git integration is tip-top.
+
+---
+
+## Clone Your Repository from GitHub
+
+2. Clone Repository
+3. Click on the little popdown “Clone from GitHub”
+4. Follow authorizations
+
+---
+
+## Key Files in Simple-Site
+
+* ðŸ“ `_posts` (Where posts go, as Markdown files)
+    * `YYYY-MM-DD-some-title.md` (For example)
+* `_config.yml` (Configurations in [YAML](https://rollout.io/blog/yaml-tutorial-everything-you-need-get-started/)) 
+* `index.md` (Front page, as a Markdown file)
+* `about.md` (About page, as a Markdown file)
+
+---
+
+## Markdown?
+
+* Yes, a [Markdown](https://guides.github.com/features/mastering-markdown/)
+
+---
+
+![Screenshot of Markdown in action](https://i.imgur.com/a7dMtNu.png)
+
+---
+
+## Create a New Post
+
+---
+
+![The four steps to git](https://i.imgur.com/mNfax2z.png)
+
+--> Icons by Font Awesome. [License](https://fontawesome.com/license).
+
+---
+
+## OK, but Git
+
+<ol>
+<li class="fragment">Branching</li>
+<li class="fragment">Issue Tracking via GitHub and Closing via Commit (â€œcloses #nâ€)</li>
+<li class="fragment"><a href="http://ohshitgit.com">Messing Up</a></li>
+</ol>
+
+---
+
+## Thanks!
+### [@muziejus](http://twitter.com/muziejus) / moacir.p@columbia.edu(
 
 ---
 
@@ -88,7 +261,7 @@ And it’s a workable foundation.
 
 <span class="credit">[Monmonier, _How to Lie with
 Maps_](https://press.uchicago.edu/ucp/books/book/chicago/H/bo27400568.html),
-7.</span>
+7.</span> 
 
 Note: Monmonier opens “How to Lie with maps” with this provocation,
 immediately foregrounding the relationship between distortion and mapping.
