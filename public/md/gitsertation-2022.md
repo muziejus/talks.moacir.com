@@ -79,7 +79,7 @@ And it’s a workable foundation.
 
 ---
 
-## [“Project Management Simplified” LinkedIn Course](https://www.linkedin.com/learning/project-management-simplified-2019)
+## “Project Management Simplified” <small>([LinkedIn Course](https://www.linkedin.com/learning/project-management-simplified-2019))</small>
 
 * Know your constraints<!-- .element: class="fragment" -->
 * Break your project apart<!-- .element: class="fragment" -->
@@ -161,9 +161,15 @@ parts of your CV.
 
 ---
 
+## Create a repository
+
+![Create a GitHub respository](https://i.imgur.com/Xq0r35C.png)
+
+---
+
 ## GitHub Visual Orientation
 
-
+![GitHub Visual Orientation](https://i.imgur.com/GoBtkMa.png)
 
 ---
 
@@ -187,7 +193,15 @@ parts of your CV.
 
 ---
 
-![Screenshot of VS Code](https://i.imgur.com/OloEamf.png)
+## VSCode Tour <small>([See Also](https://code.visualstudio.com/docs/getstarted/userinterface))</small>
+
+![VSCode Visual Orientation](https://i.imgur.com/DJ2I1N0.png)
+
+---
+
+## VSCode User Interface
+
+![VSCode User Interface](https://code.visualstudio.com/assets/docs/getstarted/userinterface/hero.png)
 
 ---
 
