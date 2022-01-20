@@ -21,7 +21,6 @@ module.exports = function(defaults) {
   // along with the exports of each module as its value.
   app.import('node_modules/reveal.js/dist/reset.css');
   app.import('node_modules/reveal.js/dist/reveal.css');
-  app.import('node_modules/reveal.js/dist/theme/moon.css');
 
   return app.toTree();
 };
