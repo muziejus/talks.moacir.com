@@ -250,7 +250,7 @@ parts of your CV.
     ```markdown
     Some text.[^footnote-name]
 
-    [^footnote-name]: This is the text of a footnote.]
+    [^footnote-name]: This is the text of a footnote.
     ```
 
 ---
