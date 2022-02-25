@@ -12,14 +12,7 @@ David Rumsey Map Center, March 2022
 Note: Thanks all for coming to this virtual talk, and thank you to Chloe,
 Kelsey, and Riley for inviting me in the first place. Thanks also to Tyler and
 the rest of the David Rumsey Map Center staff for making this talk possible.
-Thanks also to The David Rumsey Map Center, Stanford Geospatial Center, the
-Branner Earth Sciences Library have generously offered to support this workshop
-with their facilities, cartographic resources, and a grant of $5,000. We have
-further secured a $10,000 grant from the McCoy Family Center. The Stanford
-Department of History has committed $3,000, which Stanford’s Provost has
-generously matched. We are at present pursuing additional small grants from the
-Center for Comparative Studies for Race and Ethnicity and various area studies
-clusters at Stanford. 
+Thanks also to the McCoy Family Center, Stanford Libraries, Stanford's Department of History, and the Stanford Provost for supporting Chloe, Kelsey, and Riley in implementing Under-Mapped Spaces.
 
 My email and Twitter are here on the first slide, and they will be on the last slide. I don't often share my thoughts with a large audience like this, abut because what I will present is a work in progress, I leave the contact info as a mode by which the conversation can continue. 
 
@@ -46,7 +39,7 @@ Importantly, however, in giving the American image detail, the image of the plac
 
 These two places, America and origin, remain unstable. They are produced and reproduced as the people speak or think or dream. And even as they act, especially with the act of return. 
 
-In the longer version of this talk, then, I consult an archive of novel-like objects (that are mostly just novels), and examine the mutability of their various spatialities, especially along the axis of America and not-America. How, then, can I describe these spatialities? How can I analyze them? Can I map them? What would those maps look like? 
+In the longer version of this talk, then, I consult an archive of novel-like objects (that are mostly just novels) and examine the mutability of their various spatialities, especially along the axis of America and not-America. How, then, can I describe these spatialities? How can I analyze them? Can I map them? What would those maps look like? 
 
 I also look to and reason about the question of when or if these settlers and or refugees become AmericanS. And once they are Americans, do they ever stop being so?
 
