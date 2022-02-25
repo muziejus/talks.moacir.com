@@ -1,6 +1,6 @@
-# Gitsertation<!-- .element: class="r-fit-text" -->
+# Gitsertation
 
-## Scholarly Project Workflows<!-- .element: class="r-fit-text" -->
+## Scholarly Project Workflows
 
 <small>
 <a href="http://moacir.com">Moacir P. de Sá Pereira</a> | <a href="http://twitter.com/muziejus">@muziejus</a><br />

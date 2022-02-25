@@ -11,7 +11,7 @@
     "test": "tests"
   },
   "scripts": {
-    "build": "ember build --environment=production",
+    "build": "npm run tailwind:build && ember build --environment=production",
     "lint": "npm-run-all --aggregate-output --continue-on-error --parallel \"lint:!(fix)\"",
     "lint:fix": "npm-run-all --aggregate-output --continue-on-error --parallel lint:*:fix",
     "lint:hbs": "ember-template-lint .",
@@ -20,7 +20,9 @@
     "lint:js:fix": "eslint . --fix",
     "start": "ember serve",
     "test": "npm-run-all lint test:*",
-    "test:ember": "ember test"
+    "test:ember": "ember test",
+    "tailwind:build": "npx tailwindcss -c ./config/tailwind/tailwind.config.js -i ./config/tailwind/tailwind-input.css -o ./public/assets/tailwind.css",
+    "tailwind:watch": "npx tailwindcss -c ./config/tailwind/tailwind.config.js -i ./config/tailwind/tailwind-input.css -o ./public/assets/tailwind.css --watch"
   },
   "devDependencies": {
     "@ember/optional-features": "^2.0.0",
@@ -28,8 +30,10 @@
     "@ember/test-helpers": "^2.6.0",
     "@glimmer/component": "^1.0.4",
     "@glimmer/tracking": "^1.0.4",
+    "autoprefixer": "^10.0.0",
     "babel-eslint": "^10.1.0",
     "broccoli-asset-rev": "^3.0.0",
+    "ember-apply": "^1.4.2",
     "ember-auto-import": "^2.2.4",
     "ember-cli": "~4.1.0",
     "ember-cli-app-version": "^5.0.0",
@@ -59,13 +63,17 @@
     "eslint-plugin-qunit": "^7.2.0",
     "loader.js": "^4.7.0",
     "npm-run-all": "^4.1.5",
+    "postcss": "^8.0.0",
+    "postcss-import": "^14.0.2",
+    "postcss-nesting": "^10.1.2",
     "prettier": "^2.5.1",
     "qunit": "^2.17.2",
     "qunit-dom": "^2.0.0",
+    "tailwindcss": "^3.0.0",
     "webpack": "^5.65.0"
   },
   "engines": {
-    "node": "12.* || 14.* || >= 16"
+    "node": ">= 16"
   },
   "ember": {
     "edition": "octane"
