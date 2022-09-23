@@ -1,13 +1,73 @@
 @layer base {
   .reveal.columbia {
-    @apply bg-columbiaBlue text-primary font-proxima;
+    @apply bg-columbiaBlue text-primary font-proxima text-4xl;
+
+    ::selection {
+      @apply bg-primary text-white;
+    }
+
+    ::moz-selection {
+      @apply bg-primary text-white;
+    }
+
+    .slides section,
+    .slides section > section {
+      @apply leading-snug;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      @apply mb-5 font-garamond last:mb-0;
+    }
 
     h1 {
-      @apply font-trajan text-6xl;
+      @apply font-trajan text-7xl;
     }
 
     h2 {
-      @apply font-garamond;
+      @apply text-6xl;
+    }
+
+    h3 {
+      @apply text-5xl;
+    }
+
+    p {
+      @apply my-5;
+    }
+
+    img,
+    video,
+    iframe {
+      max-width: 95%;
+      max-height: 95%;
+    }
+
+    strong,
+    b {
+      @apply font-bold;
+    }
+
+    em {
+      @apply italic;
+    }
+
+    ol,
+    dl,
+    ul {
+      @apply inline-block text-left mb-4;
+    }
+
+    ol {
+      @apply list-decimal;
+    }
+
+    ol {
+      @apply list-disc;
     }
 
     a {
