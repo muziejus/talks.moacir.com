@@ -5,14 +5,15 @@ const plugins = [
   // require("postcss-custom-media")({
   //   importFrom: "app/style/media.css",
   // }),
+  require('postcss-import'),
   // require("postcss-simple-vars"),
-  require("tailwindcss/nesting"),
+  require('tailwindcss/nesting'),
   // require("postcss-hexrgba"),
   // require("postcss-easing-gradients"),
   // require("postcss-font-magician"),
   // require("postcss-responsive-type"),
-  require("tailwindcss")({ config: "./tailwind.config.js" }),
-  require("autoprefixer"),
+  require('tailwindcss')({ config: './tailwind.config.js' }),
+  require('autoprefixer'),
 ];
 
 // if (env === "production") {

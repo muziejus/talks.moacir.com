@@ -26,5 +26,5 @@ export default modifier(function reveal(element, _, { markdown }) {
     plugins,
   });
 
-  return undefined;
+  return deck.destroy();
 });

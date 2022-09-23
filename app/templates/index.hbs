@@ -1,21 +1,23 @@
 {{page-title "Home"}}
 
-<div class="p-10">
-  <h1 class="pb-4 font-didot text-5xl">Talks by Moacir P. de Sá Pereira</h1>
+<article class="p-10 font-sans">
+  <header>
+    <h1 class="pb-4 text-5xl font-serif">Talks by Moacir P. de Sá Pereira</h1>
+  </header>
 
   <section class="w-1/2">
-  <p class="pb-4 font-serif">I’ve given many talks, presentations, and workshops over the past few years, and they are typically accompanied by a slideshow of some sort or another. I’ve collected those slideshows here. Or, at least, I will.</p>
+  <p class="pb-4 ">I’ve given many talks, presentations, and workshops over the past few years, and they are typically accompanied by a slideshow of some sort or another. I’ve collected those slideshows here. Or, at least, I will.</p>
 
-  <p class="pb-4 font-serif">If you’ve come to this site looking for a talk and can’t find it, Try <a class="underline hover:text-gray-300" href="https://old-talks.moacir.com/">the old talks site</a>.</p>
+  <p class="pb-4">If you’ve come to this site looking for a talk and can’t find it, know that I’m migrating slowly and/or I have taken the talk down for whatever reason.</p>
   </section>
 
   <section class="w-1/2">
-    <h2 class="text-2xl pb-4 font-didot">Talks on this site:</h2>
+    <h2 class="text-2xl pb-4 font-serif">Talks on this site:</h2>
 
-    <ul class="list-disc px-4 font-serif">
+    <ul class="list-disc px-4">
     {{#each @model as |talk|}}
       <li><LinkTo @route="talk" @model={{talk.id}} class="underline hover:text-gray-300">{{talk.title}}</LinkTo></li>
     {{/each}}
     </ul>
   </section>
-</div>
+</article>

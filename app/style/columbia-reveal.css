@@ -1,0 +1,17 @@
+@layer base {
+  .reveal.columbia {
+    @apply bg-columbiaBlue text-primary font-proxima;
+
+    h1 {
+      @apply font-trajan text-6xl;
+    }
+
+    h2 {
+      @apply font-garamond;
+    }
+
+    a {
+      @apply underline hover:text-gray;
+    }
+  }
+}

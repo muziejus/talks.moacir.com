@@ -7,6 +7,7 @@ export default class TalkRoute extends Route {
     const response = await fetch(`/md/${talk_id}.md`);
     const markdown = await response.text();
     return {
+      revealTheme: 'columbia',
       talk_id,
       markdown,
     };
