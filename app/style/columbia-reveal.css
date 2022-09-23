@@ -43,8 +43,7 @@
     img,
     video,
     iframe {
-      max-width: 95%;
-      max-height: 95%;
+      @apply max-w-[95%] min-w-[95%];
     }
 
     strong,
@@ -66,12 +65,145 @@
       @apply list-decimal;
     }
 
-    ol {
+    ul {
       @apply list-disc;
     }
 
+    ul ul {
+      list-style-type: square;
+    }
+
+    ul ul ul {
+      list-style-type: circle;
+    }
+
+    ul ul,
+    ul ol,
+    ol ol,
+    ol ul {
+      @apply block ml-10;
+    }
+
+    dt {
+      @apply font-bold;
+    }
+
+    dd {
+      @apply ml-10;
+    }
+
+    blockquote {
+      @apply block relative w-[70%] my-5 mx-auto p-1.5 italic bg-lightGray shadow;
+
+      p:first-child,
+      p:last-child {
+        @apply inline-block;
+      }
+    }
+
+    q {
+      @apply italic;
+    }
+
+    pre {
+      @apply block relative w-[90%] my-5 mx-auto text-left text-2xl font-mono leading-tight shadow-lg;
+      word-wrap: break-word;
+
+      code {
+        @apply block p-1.5 overflow-auto max-h-[400px];
+        word-wrap: normal;
+      }
+    }
+
+    code {
+      @apply font-mono normal-case;
+      tab-size: 2;
+    }
+
+    .code-wrapper {
+      @apply whitespace-normal;
+
+      code {
+        @apply whitespace-pre;
+      }
+    }
+
+    table {
+      @apply m-auto border-collapse border-spacing-0;
+
+      th {
+        @apply font-bold;
+      }
+
+      th,
+      td {
+        @apply text-left py-0.5 px-1 border-b;
+      }
+
+      th[align='center'],
+      th[align='center'] {
+        @apply text-center;
+      }
+
+      th[align='right'],
+      th[align='right'] {
+        @apply text-right;
+      }
+
+      tbody tr:last-child th,
+      tbody tr:last-child td {
+        @apply border-0;
+      }
+    }
+
+    sup {
+      @apply align-super;
+      font-size: smaller;
+    }
+
+    sub {
+      @apply align-sub;
+      font-size: smaller;
+    }
+
+    small {
+      @apply inline-block text-2xl leading-tight align-top;
+    }
+
+    small * {
+      @apply align-top;
+    }
+
+    img {
+      @apply my-5;
+    }
+
     a {
-      @apply underline hover:text-gray;
+      @apply transition-colors hover:text-gray;
+    }
+
+    .roll span:after {
+      @apply text-white;
+    }
+
+    .r-frame {
+      @apply border-4 border-primary shadow-md;
+    }
+
+    a .r-frame {
+      @apply transition-all;
+    }
+
+    a:hover .r-frame {
+      @apply border border-gray shadow-lg;
+    }
+
+    .controls {
+      @apply text-gray;
+    }
+
+    .progress {
+      @apply opacity-20 text-gray;
     }
   }
 }
