@@ -2,7 +2,7 @@
 
 const EmberApp = require('ember-cli/lib/broccoli/ember-app');
 
-module.exports = function(defaults) {
+module.exports = function (defaults) {
   let app = new EmberApp(defaults, {
     // Add options here
   });
@@ -19,8 +19,65 @@ module.exports = function(defaults) {
   // modules that you would like to import into your application
   // please specify an object with the list of modules as keys
   // along with the exports of each module as its value.
-  app.import('node_modules/reveal.js/dist/reset.css');
-  app.import('node_modules/reveal.js/dist/reveal.css');
 
-  return app.toTree();
+  // app.import('node_modules/reveal.js/dist/reset.css');
+  // app.import('node_modules/reveal.js/dist/reveal.css');
+
+  const { Webpack } = require('@embroider/webpack');
+  return require('@embroider/compat').compatBuild(app, Webpack, {
+    // staticAddonTestSupportTrees: true,
+    // staticAddonTrees: true,
+    // staticHelpers: true,
+    // staticModifiers: true,
+    // staticComponents: true,
+    // splitAtRoutes: [
+    // ], // can also be a RegExp
+    packagerOptions: {
+      cssLoaderOptions: {
+        sourceMap: process.env.EMBER_ENV !== 'production' ? true : false,
+      },
+      webpackConfig: {
+        module: {
+          rules: [
+            {
+              test: /\.(woff(2)?|ttf|jpg|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
+              use: [
+                {
+                  loader: 'file-loader',
+                  options: {
+                    name: '[name].[ext]',
+                    outputPath: 'assets/fonts/',
+                  },
+                },
+              ],
+            },
+            {
+              test: (f) => /\.css$/i.test(f),
+              exclude: /node_modules/,
+              use: [
+                {
+                  loader: 'postcss-loader',
+                  options: {
+                    sourceMap:
+                      process.env.EMBER_ENV !== 'production' ? true : false,
+                    postcssOptions: {
+                      config: './postcss.config.js',
+                    },
+                  },
+                },
+              ],
+            },
+          ],
+        },
+        resolve: {
+          fallback: {
+            stream: false,
+            crypto: false,
+            fs: false,
+            path: false,
+          },
+        },
+      },
+    },
+  });
 };

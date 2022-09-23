@@ -1,4 +1,6 @@
 import Route from '@ember/routing/route';
+import 'reveal.js/dist/reset.css';
+import 'reveal.js/dist/reveal.css';
 
 export default class TalkRoute extends Route {
   async model({ talk_id }) {
