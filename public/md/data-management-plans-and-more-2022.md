@@ -1,4 +1,4 @@
-# Research Data Management: Plans and More <!-- .element: class="r-fit-text" -->
+# Research Data Management:<br/>Plans and More <!-- .element: class="r-fit-text" -->
 
 <small>
 <a href="http://moacir.com">Moacir P. de Sá Pereira</a> | <a href="http://twitter.com/muziejus">@muziejus</a><br />
@@ -83,13 +83,13 @@ http://talks.moacir.com/research-data-management-plans-and-more/
 
 ## The Research Data Lifecycle
 
-![Research Data Lifecycle](https://i.imgur.com/HGroCEH.png)<!-- .element: style="width: 40%" -->
+![Research Data Lifecycle](https://i.imgur.com/HGroCEH.png)<!-- .element: class="w-1/2 mx-auto" -->
 
 ---
 
 ## (Why) Is This Funny?
 
-<blockquote class="r-fit-text">
+<blockquote>
 <p>I will store all data on at least one, and possibly up to 50, hard drives
 in my lab. The directory structure will be custom, not self-explanatory, and
 in no way documented or described. Students working with the data will be
@@ -155,7 +155,7 @@ Backups will rarely, if ever, be done.
 
 ---
 
-![LabArchives](https://i.imgur.com/66j8vxc.png)
+![LabArchives](https://i.imgur.com/66j8vxc.png)<!-- .element: class="w-1/2 mx-auto"-->
 
 * Electronic lab notebook
 * Free for Columbia users
@@ -164,7 +164,7 @@ Backups will rarely, if ever, be done.
 
 ---
 
-![Git](https://i.imgur.com/r7Bd7VP.png) <!-- .element: style="width: 50%" -->
+![Git](https://i.imgur.com/r7Bd7VP.png) <!-- .element: class="w-1/2 mx-auto"-->
 
 * Version control software
 * Completely free
@@ -199,7 +199,7 @@ your data management needs such as:
 
 ## How Do We Improve This? <!-- .element: class="r-fit-text" -->
 
-<blockquote class="r-fit-text">
+<blockquote>
 <p>I will store all data on at least one, and possibly up to 50, hard drives
 in my lab. The directory structure will be custom, not self-explanatory, and
 in no way documented or described. Students working with the data will be

@@ -40,12 +40,6 @@
       @apply my-5;
     }
 
-    img,
-    video,
-    iframe {
-      @apply max-w-[95%] min-w-[95%];
-    }
-
     strong,
     b {
       @apply font-bold;
@@ -93,7 +87,7 @@
     }
 
     blockquote {
-      @apply block relative w-[70%] my-5 mx-auto p-1.5 italic bg-lightGray shadow;
+      @apply block relative w-[70%] my-5 mx-auto p-1.5 px-5 italic bg-lightGray shadow-lg border-l-4 border-primary text-left;
 
       p:first-child,
       p:last-child {
@@ -116,7 +110,7 @@
     }
 
     code {
-      @apply font-mono normal-case;
+      @apply font-mono normal-case bg-gray/25 px-1;
       tab-size: 2;
     }
 

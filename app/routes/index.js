@@ -8,6 +8,10 @@ export default class IndexRoute extends Route {
         title:
           '“Gitsertation”: Scholarly Project Workflows with Git, Zotero, and Pandoc',
       },
+      {
+        id: 'data-management-plans-and-more-2022',
+        title: 'Research Data Management (Plans and More)',
+      },
     ];
   }
 }
