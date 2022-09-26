@@ -30,7 +30,7 @@ module.exports = {
     },
     fontFamily: {
       serif: ['Lusitana', 'ui-serif', 'Times New Roman', 'serif'],
-      sans: ['Voces', 'ui-sans-serif', 'Helvetica', 'sans-serif'],
+      sans: ['Gudea', 'ui-sans-serif', 'Helvetica', 'sans-serif'],
       mono: ['Ubuntu Mono', 'ui-mono', 'Monaco', 'mono'],
       ubuntu: ['Ubuntu', 'ui-sans-seif', 'Helvetica', 'sans-serif'],
       trajan: [
