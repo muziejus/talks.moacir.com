@@ -14,9 +14,9 @@
   <section class="w-1/2">
     <h2 class="text-2xl pb-4 font-serif">Talks on this site:</h2>
 
-    <ul class="list-disc px-4">
+    <ul class="list-disc px-4 text-base">
     {{#each @model as |talk|}}
-      <li><LinkTo @route="talk" @model={{talk.id}} class="underline hover:text-gray-300">{{talk.title}}</LinkTo></li>
+      <li><LinkTo @route="talk" @model={{talk.id}} class="underline hover:text-gray-300">{{htmlize talk.title}}</LinkTo></li>
     {{/each}}
     </ul>
   </section>

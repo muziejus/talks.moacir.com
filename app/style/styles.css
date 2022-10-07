@@ -18,3 +18,35 @@
 body {
   @apply bg-slate-50 font-sans text-slate-800;
 }
+
+.tex sub,
+.latex sub,
+.latex sup {
+  text-transform: uppercase;
+  position: static;
+}
+
+.tex sub,
+.latex sub {
+  vertical-align: -0.5ex !important;
+  margin-left: -0.1667em;
+  margin-right: -0.125em;
+}
+
+.tex,
+.latex,
+.tex sub,
+.latex sub {
+  font-size: 1em !important;
+}
+
+.latex sup {
+  font-size: 0.85em !important;
+  vertical-align: 0.15em !important;
+  margin-left: -0.36em;
+  margin-right: -0.15em;
+}
+
+.ib {
+  font-variant: small-caps;
+}
