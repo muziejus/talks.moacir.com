@@ -23,7 +23,7 @@ you have to click on links and copy paste things.
   * [Homebrew](https://brew.sh) (for Mac)
   * [Pandoc](https://pandoc.org/installing.html)
   * [Zotero](https://zotero.org)
-  * [Better B<span class="ib">ib</span><span class="tex">T<sub>E</sub>X</span> for Zotero](https://github.com/retorquere/zotero-better-bibtex/releases/download/v6.1.5/zotero-better-bibtex-6.1.5.xpi)
+  * [Better B<span class="ib">ib</span><span class="tex">T<sub>E</sub>X</span> for Zotero](https://github.com/retorquere/zotero-better-bibtex/releases/download/v6.7.24/zotero-better-bibtex-6.7.24.xpi)
   * [Basic<span class="tex">T<sub>E</sub>X</span>](https://www.tug.org/mactex/morepackages.html) on Mac or [MiK<span class="tex">T<sub>E</sub>X</span>](http://miktex.org) on Windows
 
 ---
