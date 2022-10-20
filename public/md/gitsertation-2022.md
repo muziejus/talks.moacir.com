@@ -74,7 +74,13 @@ And it’s a workable foundation.
 
 ## Your Dissertation Is Not a _Document_.<br />It Is a _Project_.
 
+<div class="w-full flex justify-center">
+<div class="w-3/5">
+
 ![Gantt Chart](https://upload.wikimedia.org/wikipedia/commons/3/37/GANTT_Chart.JPG)
+
+</div>
+</div>
 
 ---
 
@@ -130,7 +136,13 @@ syncing your new changes with a server.
 
 ---
 
+<div class="w-full flex justify-center">
+<div class="w-3/5">
+
 ![The four steps to git](https://i.imgur.com/mNfax2z.png)
+
+</div>
+</div>
 
 <span class="credit">Icons by Font Awesome. [License](https://fontawesome.com/license).</span>
 
@@ -162,13 +174,25 @@ parts of your CV.
 
 ## Create a repository
 
+<div class="w-full flex justify-center">
+<div class="w-3/5">
+
 ![Create a GitHub respository](https://i.imgur.com/Xq0r35C.png)
+
+</div>
+</div>
 
 ---
 
 ## GitHub Visual Orientation
 
+<div class="w-full flex justify-center">
+<div class="w-3/5">
+
 ![GitHub Visual Orientation](https://i.imgur.com/GoBtkMa.png)
+j
+</div>
+</div>
 
 ---
 
@@ -194,13 +218,25 @@ parts of your CV.
 
 ## VSCode Tour <small>([See Also](https://code.visualstudio.com/docs/getstarted/userinterface))</small>
 
+<div class="w-full flex justify-center">
+<div class="w-3/5">
+
 ![VSCode Visual Orientation](https://i.imgur.com/DJ2I1N0.png)
+
+</div>
+</div>
 
 ---
 
 ## VSCode User Interface
 
+<div class="w-full flex justify-center">
+<div class="w-3/5">
+
 ![VSCode User Interface](https://code.visualstudio.com/assets/docs/getstarted/userinterface/hero.png)
+
+</div>
+</div>
 
 ---
 
@@ -270,7 +306,13 @@ parts of your CV.
 
 ## Zotero Integration into VSCode via [Better BibTeX](https://github.com/retorquere/zotero-better-bibtex/releases/download/v6.1.5/zotero-better-bibtex-6.1.5.xpi)
 
+<div class="w-full flex justify-center">
+<div class="w-3/5">
+
 ![Zotero with Better BibTeX installed](https://i.imgur.com/n5P5stu.png)
+
+</div>
+</div>
 
 <small>(Note the little “`citation-key:edney`” in the Extra field!)</small>
 
@@ -302,13 +344,25 @@ parts of your CV.
 
 ## I’m Citing!
 
+<div class="w-full flex justify-center">
+<div class="w-3/5">
+
 ![VSCode with pandoc and bibliography](https://i.imgur.com/2LKgaSC.png)
+
+</div>
+</div>
 
 ---
 
 ## In Word
 
+<div class="w-full flex justify-center">
+<div class="w-3/5">
+
 ![.docx version of pandoc with bibliography](https://i.imgur.com/pPjPzhr.png)
+
+</div>
+</div>
 
 ---
 
@@ -322,11 +376,23 @@ parts of your CV.
 
 ## Git in VSCode
 
+<div class="w-full flex justify-center">
+<div class="w-3/5">
+
 ![Git in VSCode](https://i.imgur.com/PBBao9J.png)
+
+</div>
+</div>
 
 ---
 
+<div class="w-full flex justify-center">
+<div class="w-3/5">
+
 ![The four steps to git](https://i.imgur.com/mNfax2z.png)
+
+</div>
+</div>
 
 <span class="credit">Icons by Font Awesome. [License](https://fontawesome.com/license).</span>
 
