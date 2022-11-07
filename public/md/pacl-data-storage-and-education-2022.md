@@ -24,7 +24,7 @@ http://data.research.columbia.edu
 ---
 
 <div class="w-full flex justify-center">
-<div class="w-4/5">
+<div class="w-3/5">
 
 ![Data Storage Suggestions Table](/images/exceptional-scholarship/storage.png)
 
@@ -102,7 +102,7 @@ http://data.research.columbia.edu
 ---
 
 <div class="w-full flex justify-center">
-<div class="w-4/5">
+<div class="w-3/5">
 
 ![Exceptional Scholarship with Research Data course title card](/images/exceptional-scholarship/title-card.png)
 
@@ -112,7 +112,7 @@ http://data.research.columbia.edu
 ---
 
 <div class="w-full flex justify-center">
-<div class="w-4/5">
+<div class="w-3/5">
 
 ![A stack of index cards on a desk](/images/exceptional-scholarship/index-cards.png)
 
@@ -122,7 +122,7 @@ http://data.research.columbia.edu
 ---
 
 <div class="w-full flex justify-center">
-<div class="w-4/5">
+<div class="w-3/5">
 
 ![A bibliography](/images/exceptional-scholarship/bibliography.png)
 
@@ -132,7 +132,7 @@ http://data.research.columbia.edu
 ---
 
 <div class="w-full flex justify-center">
-<div class="w-4/5">
+<div class="w-3/5">
 
 ![The US Government definition of research data](/images/exceptional-scholarship/data-definition.png)
 
@@ -141,7 +141,7 @@ http://data.research.columbia.edu
 
 ---
 
-<div class="flex w-full justify-center">
+<div class="flex w-3/4 justify-center">
 
 <div class="w-full grid grid-rows-2 grid-cols-2 gap-x-2">
 <div class="flex flex-col justify-start">
@@ -200,7 +200,7 @@ http://data.research.columbia.edu
 
 ## Data Management Software
 
-<div class="w-full grid grid-cols-3 align-center justify-between space-x-10">
+<div class="w-3/4 grid grid-cols-3 align-center justify-between space-x-10">
 
 ![Git](/images/exceptional-scholarship/git.png)
 
