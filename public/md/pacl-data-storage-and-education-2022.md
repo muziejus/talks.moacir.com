@@ -141,7 +141,8 @@ http://data.research.columbia.edu
 
 ---
 
-<div class="flex w-3/4 justify-center">
+<div class="flex w-full justify-center">
+<div class="flex w-3/5 justify-center">
 
 <div class="w-full grid grid-rows-2 grid-cols-2 gap-x-2">
 <div class="flex flex-col justify-start">
@@ -151,7 +152,6 @@ http://data.research.columbia.edu
 ![Hemali Phatnani](/images/exceptional-scholarship/hemali.png)
   Hemali Phatnani<br/>
   Assistant Professor, Dept of Neurology<br />
-  Director, Center for Genomics of Neurodegenerative Disease, New York Genome Center
 </div>
 </div>
 
@@ -162,8 +162,7 @@ http://data.research.columbia.edu
 ![Elizabeth Blackmar](/images/exceptional-scholarship/betsy.png)
 
   Elizabeth Blackmar<br/>
-  Professor of History
-  Chair of PACL
+  Professor of History and Chair of PACL
 </div>
 
 </div>
@@ -195,11 +194,13 @@ http://data.research.columbia.edu
 </div>
 
 </div>
+</div>
 
 ---
 
 ## Data Management Software
 
+<div class="flex w-full justify-center">
 <div class="w-3/4 grid grid-cols-3 align-center justify-between space-x-10">
 
 ![Git](/images/exceptional-scholarship/git.png)
@@ -209,7 +210,8 @@ http://data.research.columbia.edu
 ![LabArchives](/images/exceptional-scholarship/labarchives.png)
 
 </div>
+</div>
 
 ---
 
-Thanks!
+## Thanks!
