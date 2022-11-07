@@ -4,6 +4,10 @@ export default class IndexRoute extends Route {
   model() {
     return [
       {
+        id: 'pacl-data-storage-and-education-2022',
+        title: 'PACL Data Storage and Education Update',
+      },
+      {
         id: 'scholarly-writing-markdown-zotero-latex-2022',
         title:
           'Scholarly Writing with Markdown, Zotero, and <span class="latex">L<sup>a</sup>T<sub>e</sub>X</span>',
