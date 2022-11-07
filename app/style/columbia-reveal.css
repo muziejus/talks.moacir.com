@@ -52,7 +52,7 @@
     ol,
     dl,
     ul {
-      @apply inline-block text-left mb-4;
+      @apply inline-block text-left mb-4 max-w-[75%];
     }
 
     ol {
