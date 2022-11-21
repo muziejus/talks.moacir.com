@@ -4,6 +4,10 @@ export default class IndexRoute extends Route {
   model() {
     return [
       {
+        id: 'resistant-digital-map-2022',
+        title: 'The Resistant Digital Map',
+      },
+      {
         id: 'pacl-data-storage-and-education-2022',
         title: 'PACL Data Storage and Education Update',
       },
