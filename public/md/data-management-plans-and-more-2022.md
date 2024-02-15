@@ -95,7 +95,7 @@ is.</p>
 Backups will rarely, if ever, be done.
 </blockquote>
 
---> [Brown 2010](http://ivory.idyll.org/blog/data-management.html)
+<small>[Brown 2010](http://ivory.idyll.org/blog/data-management.html)</small>
 
 ---
 
@@ -204,7 +204,7 @@ is.</p>
 Backups will rarely, if ever, be done.
 </blockquote>
 
---> [Brown 2010](http://ivory.idyll.org/blog/data-management.html)
+<small>[Brown 2010](http://ivory.idyll.org/blog/data-management.html)</small>
 
 ---
 
