@@ -4,6 +4,10 @@ export default class IndexRoute extends Route {
   model() {
     return [
       {
+        id: 'day-one-javascript-2024',
+        title: 'Day One JavaScript',
+      },
+      {
         id: 'resistant-digital-map-2022',
         title: 'The Resistant Digital Map',
       },

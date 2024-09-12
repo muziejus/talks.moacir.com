@@ -12,7 +12,7 @@ module.exports = {
       slate,
       transparent: 'transparent',
       current: 'currentColor',
-      primary: '#000d74',
+      primary: '#1D4F91',
       columbiaBlue: {
         DEFAULT: '#C4D8E2',
         100: '#75AADB',
