@@ -4,6 +4,10 @@ export default class IndexRoute extends Route {
   model() {
     return [
       {
+        id: 'gitsertation-2025',
+        title: 'Git and Gitting Organized (Also, Text Editing)',
+      },
+      {
         id: 'day-one-javascript-2024',
         title: 'Day One JavaScript',
       },
