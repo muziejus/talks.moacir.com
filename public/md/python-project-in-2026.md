@@ -7,11 +7,6 @@ mpd2149@columbia.edu | he/him/his<br />
 NY, NY, 2026
 </small>
 
-- projects
-- uv
-- git
-- gcp
-
 Note: Thanks all for coming.
 
 ---
