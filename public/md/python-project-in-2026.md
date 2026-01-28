@@ -11,7 +11,7 @@ Note: Thanks all for coming.
 
 ---
 
-http://talks.moacir.com/-/gitsertation-2025/
+https://columbia-data.club/iay02j
 
 Note: I always make the slides for my talks and workshops available online, so
 here they are if you want to follow along at home or review the links, etc.,
